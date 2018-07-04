@@ -20,7 +20,5 @@ Install the necessary python packages by running `pip install -r requirements.tx
 Start the XLS to MySQL database migration by running `python db_mysql.py`.
 
 > Output:
-`Current file is Chicago Motion Database Metadata - clips.xlsx
-Current sheet is Chicago Motion Database Metadat
-Successfully done!`
+`` `Successfully done!` ``
 `
