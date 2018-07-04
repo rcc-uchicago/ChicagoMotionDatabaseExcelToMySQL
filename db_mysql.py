@@ -49,7 +49,8 @@ for videoclip_row in videoclips_rows:
                            date=videoclip_row[11],
                            description=videoclip_row[12])
     videoclip.save()
-    print('Successfully done!')
+
+print('Successfully done!')
 
 # for videoclip in VideoClips.filter(name="bees5-1"):
     # print(videoclip.name)
