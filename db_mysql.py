@@ -4,7 +4,7 @@ from peewee import MySQLDatabase, Model, CharField, FloatField, IntegerField, Da
 from test_multiple_files import parse_videoclips
 
 # Connect to a MySQL database on network.
-mysql_db = MySQLDatabase('db_CMD', user='root', password='')
+mysql_db = MySQLDatabase('db_cmd', user='root', password='')
 
 
 class BaseModel(Model):
@@ -49,6 +49,7 @@ for videoclip_row in videoclips_rows:
                            date=videoclip_row[11],
                            description=videoclip_row[12])
     videoclip.save()
+    print('Successfully done!')
 
-for videoclip in VideoClips.filter(name="bees5-1"):
-    print(videoclip.name)
+# for videoclip in VideoClips.filter(name="bees5-1"):
+    # print(videoclip.name)
