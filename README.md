@@ -21,4 +21,3 @@ Start the XLS to MySQL database migration by running `python db_mysql.py`.
 
 > Output:
 `` `Successfully done!` ``
-`
