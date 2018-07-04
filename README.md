@@ -5,7 +5,7 @@ Excel to Database Importer using Python and Pewee ORM for Chicago Motion Databas
 
 `git clone` this repository.
 
-`cd chicago_motion_database`.
+`cd ChicagoMotionDatabaseExcelToMySQL`.
 
 Create a virtual environment by running `virtualenv venv`.
 
